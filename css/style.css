@@ -433,19 +433,30 @@ footer {
   background-color: #31d0aa;
 }
 
-.subscribe-div {
-  display: flex;
-  flex-direction: column;
-  row-gap: 16px;
-  margin-left: 80px;
+.footer-media {
+  margin-right: 80px;
 }
 
 .subscribe-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.form {
   display: flex;
   flex-direction: row;
   gap: 24px;
 }
 
+.subcscribe {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: #fff;
+}
 .subscribe-input {
   padding: 8px 16px;
   border: 1px solid #fff;
