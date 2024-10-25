@@ -453,7 +453,101 @@
             </li>
           </ul>
         </div>
+        <div class="subscribe-div">
+          <form class="form">
+            <label for="subscribe" class="subscribe">
+              Subscribe
+              <input
+                name="subscribe"
+                class="subscribe-input"
+                type="text"
+                placeholder="E-mail"
+              />
+            </label>
+            <div class="button-wrapper">
+              <button type="submit" class="button-send">Subscribe</button>
+              <svg width="24" height="24" class="send-button-img">
+                <use href="./images/icons.svg#icon-send"></use>
+              </svg>
+            </div>
+          </form>
+        </div>
       </div>
     </footer>
+    <div class="backdrop is-open">
+      <form class="form-contacts">
+        <button class="close-backdrop">x</button>
+        <p class="backdrop-heading">
+          Leave your contacts and we will call you back
+        </p>
+        <div class="input-wrapper">
+          <label for="name" class="label-info"> Name </label>
+          <input
+            type="text"
+            name="name"
+            class="input-info"
+            id="name"
+            required
+          />
+          <svg width="18" height="24" class="input-img">
+            <use href="./images/icons.svg#vector-f"></use>
+          </svg>
+        </div>
+        <div class="input-wrapper">
+          <label for="phone" class="label-info"> Phone </label>
+          <input
+            type="tel"
+            name="phone"
+            class="input-info"
+            id="phone"
+            required
+          />
+          <svg width="18" height="24" class="input-img">
+            <use href="./images/icons.svg#vector-s"></use>
+          </svg>
+        </div>
+        <div class="input-wrapper">
+          <label for="email" class="label-info"> Email </label>
+          <input
+            type="email"
+            name="email"
+            class="input-info"
+            id="email"
+            required
+          />
+          <svg width="18" height="24" class="input-img">
+            <use href="./images/icons.svg#vector-t"></use>
+          </svg>
+        </div>
+        <div class="input-wrapper">
+          <label for="comment" class="label-info"> Comment </label>
+          <textarea
+            name="comment"
+            class="input-info textarea-comment"
+            placeholder="Text input"
+            id="comment"
+            required
+          ></textarea>
+        </div>
+        <div class="model-field-test">
+          <input
+            type="checkbox"
+            name="checkbox-privacy"
+            id="checkbox-privacy"
+            class="check-input visually-hidden"
+            required
+          />
+          <label for="checkbox-privacy" class="check-label">
+            <span class="check-simulate">
+              <svg width="10" height="8" class="check-icon">
+                <use href="./images/icons.svg#icon-Vector"></use>
+              </svg> </span
+            >I accept the terms and conditions of the
+            <a href="" class="privacy"> Privacy Policy</a></label
+          >
+        </div>
+        <button type="submit" class="send-button">Send</button>
+      </form>
+    </div>
   </body>
 </html>
