@@ -440,22 +440,23 @@ footer {
 .subscribe-wrapper {
   display: flex;
   flex-direction: column;
-  gap: 16px;
 }
 
 .form {
   display: flex;
   flex-direction: row;
   gap: 24px;
+  position: relative;
 }
 
-.subcscribe {
+.subscribe {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
-  line-height: 150%;
+  line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #fff;
+  color: #ffffff;
+  margin-bottom: 16px;
 }
 .subscribe-input {
   padding: 8px 16px;
@@ -476,12 +477,6 @@ footer {
 .subscribe-input::placeholder {
   color: #fff;
 }
-
-.button-wrapper {
-  position: relative;
-  align-self: flex-end;
-}
-
 .button-send {
   border-radius: 4px;
   padding: 8px 64px 8px 25px;
