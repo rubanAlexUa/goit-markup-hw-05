@@ -453,28 +453,27 @@
             </li>
           </ul>
         </div>
-        <div class="subscribe-div">
-          <form class="form">
-            <label for="subscribe" class="subscribe">
-              Subscribe
-              <input
-                name="subscribe"
-                class="subscribe-input"
-                type="text"
-                placeholder="E-mail"
-              />
-            </label>
-            <div class="button-wrapper">
-              <button type="submit" class="button-send">Subscribe</button>
-              <svg width="24" height="24" class="send-button-img">
-                <use href="./images/icons.svg#icon-send"></use>
-              </svg>
-            </div>
-          </form>
+        <div class="subscribe-wrapper">
+          <div class="subscribe-div">
+            <p class="subscribe">Subscribe</p>
+            <input
+              name="subscribe"
+              class="subscribe-input"
+              type="text"
+              placeholder="E-mail"
+              id="subscribe"
+            />
+          </div>
+          <div class="button-wrapper">
+            <button type="submit" class="button-send">Subscribe</button>
+            <svg width="24" height="24" class="send-button-img">
+              <use href="./images/icons.svg#icon-send"></use>
+            </svg>
+          </div>
         </div>
       </div>
     </footer>
-    <div class="backdrop is-open">
+    <div class="backdrop">
       <form class="form-contacts">
         <button class="close-backdrop">x</button>
         <p class="backdrop-heading">

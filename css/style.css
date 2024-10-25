@@ -434,19 +434,16 @@ footer {
 }
 
 .subscribe-div {
-  margin-left: 80px;
-}
-
-.form {
-  display: flex;
-  flex-direction: row;
-  gap: 24px;
-}
-
-.subscribe {
   display: flex;
   flex-direction: column;
   row-gap: 16px;
+  margin-left: 80px;
+}
+
+.subscribe-wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
 }
 
 .subscribe-input {
