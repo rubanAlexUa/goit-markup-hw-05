@@ -533,10 +533,20 @@ footer {
   border-radius: 50%;
   position: absolute;
   top: 24px;
-  right: 30px;
+  right: 24px;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 0;
+  cursor: pointer;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.close-backdrop:hover,
+.close-backdrop:focus {
+  background-color: #404bbf;
+  border: none;
 }
 
 .modal {
