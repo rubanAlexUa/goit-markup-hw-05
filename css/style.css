@@ -569,6 +569,12 @@ footer {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.form-contacts {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
 .backdrop-heading {
   margin: 0 auto 16px auto;
   font-family: "Roboto", sans-serif;
@@ -617,6 +623,11 @@ footer {
 .textarea-comment {
   height: 120px;
   resize: none;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: rgba(46, 47, 66, 0.4);
+  padding: 8px 16px;
 }
 
 .input-img {
@@ -636,6 +647,10 @@ footer {
   display: flex;
   flex-direction: column;
   margin-bottom: 24px;
+}
+
+.comment-wrapper {
+  margin-bottom: 16px;
 }
 
 .check-label {
@@ -659,6 +674,10 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  display: inline-flex;
 }
 
 .privacy {
@@ -690,4 +709,13 @@ footer {
   color: #fff;
   border: none;
   align-self: center;
+  display: block;
+  min-width: 169px;
+  cursor: pointer;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.send-button:hover,
+.send-button:focus {
+  background-color: #404bbf;
 }
