@@ -476,49 +476,59 @@
     </footer>
     <div class="backdrop is-open">
       <div class="modal">
-        <button class="close-backdrop" type="button">x</button>
+        <button class="close-backdrop" type="button">
+          <svg width="8" height="8" class="close-svg">
+            <use href="./images/icons.svg#vector-close"></use>
+          </svg>
+        </button>
         <p class="backdrop-heading">
           Leave your contacts and we will call you back
         </p>
         <form class="form-contacts">
           <div class="input-wrapper">
-            <label for="name" class="label-info"> Name </label>
-            <input
-              type="text"
-              name="name"
-              class="input-info"
-              id="name"
-              required
-            />
-            <svg width="18" height="24" class="input-img">
-              <use href="./images/icons.svg#vector-f"></use>
-            </svg>
+            <label for="user-name" class="label-info"> Name </label>
+            <div class="input-text-wrapper">
+              <input
+                type="text"
+                name="user-name"
+                class="input-info"
+                id="user-name"
+                required
+              />
+              <svg width="18" height="24" class="input-img">
+                <use href="./images/icons.svg#vector-f"></use>
+              </svg>
+            </div>
           </div>
           <div class="input-wrapper">
             <label for="phone" class="label-info"> Phone </label>
-            <input
-              type="tel"
-              name="phone"
-              class="input-info"
-              id="phone"
-              required
-            />
-            <svg width="18" height="24" class="input-img">
-              <use href="./images/icons.svg#vector-s"></use>
-            </svg>
+            <div class="input-text-wrapper">
+              <input
+                type="tel"
+                name="phone"
+                class="input-info"
+                id="phone"
+                required
+              />
+              <svg width="18" height="24" class="input-img">
+                <use href="./images/icons.svg#vector-s"></use>
+              </svg>
+            </div>
           </div>
           <div class="input-wrapper">
             <label for="email" class="label-info"> Email </label>
-            <input
-              type="email"
-              name="email"
-              class="input-info"
-              id="email"
-              required
-            />
-            <svg width="18" height="24" class="input-img">
-              <use href="./images/icons.svg#vector-t"></use>
-            </svg>
+            <div class="input-text-wrapper">
+              <input
+                type="email"
+                name="email"
+                class="input-info"
+                id="email"
+                required
+              />
+              <svg width="18" height="24" class="input-img">
+                <use href="./images/icons.svg#vector-t"></use>
+              </svg>
+            </div>
           </div>
           <div class="input-wrapper">
             <label for="comment" class="label-info"> Comment </label>
